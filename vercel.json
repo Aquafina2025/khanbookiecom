@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/wp-admin",
+      "destination": "/wp-admin/index.html"
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "/wp-admin/:path*"
+    }
+  ]
+}
+  
